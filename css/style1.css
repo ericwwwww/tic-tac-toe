@@ -93,3 +93,16 @@ h1 {
 	color:red;
 	display:none;
 }
+.player{
+  width: 300px;
+	height:20px;
+	color:black;
+	position: relative;
+}
+.select{
+	background-color:white;
+	width: 300px;
+	color:black;
+	position: absolute;
+	border-radius: 50%;
+}

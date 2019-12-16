@@ -3,14 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>TicTacToe</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
   </head>
   <body>
 
 <h1>TicTacToe</h1>
+<div class="select" >
+  <select class="player" value = 'choose the level'>
+    <option value = "Choose the level" >Choose the level</option>
+    <option value="player vs player">Player vs Player</option>
+    <option value="player vs ai">Player vs Ai</option>
+  </select>
+</div>
+<div class="scoreboard">
+  <div id ="">
+
+  </div>
+  <div id ="">
+
+  </div>
+</div>
 <div class="main">
     <div id="outside1" class="div">
-        <span id="inside1" class="allSpan">1</span>
+        <span id="inside1" class="allSpan"></span>
     </div>
     <div id="outside2" class="div">
         <span id="inside2" class="allSpan"></span>
@@ -54,5 +69,5 @@
 </div>
   </body>
   <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main1.js"></script>
 </html>
